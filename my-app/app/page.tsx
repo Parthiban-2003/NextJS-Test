@@ -1,4 +1,3 @@
-import BlogPost from '@/app/blog/[slug]/blogPost'
 import Layout from './layout';
 
 export default function Home() {
@@ -6,7 +5,6 @@ export default function Home() {
     <Layout>
       <div>
         <h1>Hi Hello Welcome</h1>
-        <BlogPost />
       </div>
     </Layout>
   );
