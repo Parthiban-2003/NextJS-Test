@@ -1,11 +1,10 @@
 import Layout from './layout';
+import NavBar from '@/app/NavBar/page';
 
 export default function Home() {
   return (
     <Layout>
-      <div>
-        <h1>Hi Hello Welcome</h1>
-      </div>
+        <NavBar/>
     </Layout>
   );
 }
