@@ -1,10 +1,7 @@
-import Layout from './layout';
-import NavBar from '@/app/NavBar/page';
+import HomeContent from './homeContent/page';
 
 export default function Home() {
   return (
-    <Layout>
-        <NavBar/>
-    </Layout>
+        <HomeContent/>
   );
 }
