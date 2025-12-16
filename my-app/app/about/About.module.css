@@ -1,0 +1,100 @@
+.hero_about {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 40px;
+  color: #1e293b;
+}
+
+.hero_about h1 {
+  font-size: 48px;
+  margin-bottom: 24px;
+  font-family: "Impact", "Arial Black", "Tahoma", "Verdana", sans-serif;
+  color: #0d0c0f;
+  text-align: center;
+}
+
+.about_Content ul,
+.about_Mission ul,
+.about_learn ul,
+.abougt_Blog ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  margin-bottom: 28px;
+}
+
+.about_Content li,
+.about_Mission li,
+.about_learn li,
+.abougt_Blog li {
+  font-size: 30px;
+  margin-bottom: 14px;
+  color: #475569;
+}
+
+.about_Content p,
+.about_Mission p,
+.about_learn p,
+.abougt_Blog p,
+.about_para p {
+  font-size: 30px;
+  margin-bottom: 18px;
+  color: #475569;
+}
+
+.about_Mission h1,
+.about_learn h1,
+.abougt_Blog h1 {
+  margin-top: 48px;
+  font-size: 40px;
+  color: #0d0c0f;
+}
+
+.about_para {
+  margin-top: 48px;
+}
+
+.about_para p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #334155;
+}
+
+@media (max-width: 1024px) {
+  .hero_about {
+    padding: 32px 32px;
+  }
+
+  .hero_about h1 {
+    font-size: 36px;
+  }
+
+  .about_Content li,
+  .about_Mission li,
+  .about_learn li,
+  .abougt_Blog li,
+  .about_para p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero_about {
+    padding: 24px 16px;
+  }
+
+  .hero_about h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .about_Content li,
+  .about_Mission li,
+  .about_learn li,
+  .abougt_Blog li,
+  .about_para p {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+  }
+}

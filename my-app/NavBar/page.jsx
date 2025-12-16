@@ -11,9 +11,9 @@ export default function NavBarContents() {
             </div>
 
             <nav className={Styles.right_header}>
-                <Link href="/homeContent">Home</Link>
-                <Link href="">About</Link>
-                <Link href="">Content</Link>
+                <Link href="/">Home</Link>
+                <Link href="/about">About</Link>
+                <Link href="/technology">Technology</Link>
                 <Link href="">Contact</Link>
             </nav>
         </header>
